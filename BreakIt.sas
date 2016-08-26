@@ -66,7 +66,7 @@ DATE        PROGRAMMER          DESCRIPTION
                MarPct=0.10,
                MaxGap=3);
 
-   %global OVMIN OVMAX FIGLOW1 FIGUP1 FIGLOW2 FIGUP2 FIGBY FIGTEXT;
+   %global OVMIN OVMAX FIGLOW1 FIGUP1 FIGLOW2 FIGUP2 FIGLOW3 FIGUP3 FIGLOW4 FIGUP4 FIGBY FIGTEXT;
 
 /* Confirm data and variable exists */
 
