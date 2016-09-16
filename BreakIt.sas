@@ -179,12 +179,6 @@ If gap is large is enough, set values for RANGE
 
       data _bi_gapfl_ngap;
          set _bi_gapfl;
-
-         retain ngap_ 0;
-         if _n_=1 then ngap_=ngap_+1;
-         if _n_=2 then ngap_=ngap_+1;
-         if _n_=3 then ngap_=ngap_+1;
-
          if _n_<=&MaxGap.;
       run;
 
